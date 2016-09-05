@@ -32,7 +32,7 @@ def print_perms(N): # pos int -> None
         return 
     block = ''
     i = 0
-    for p in swpperms(range(N)): # edit this line to try with rotperms
+    for p in swpperms(range(N)): 
         block += str(p) + '\n'
         i += 1
         if i % N == 0:
